@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Our Survey Form</title>
+    <link rel="stylesheet" href="styleSurvey.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+         <h1 id="title" class="text-center">Student survey questions about the class</h1>
+         <p id="description" class="text-center">Thank you for taking the time to help us</p>
+      </header>
+      <form id="survey-form" class="" action="index.html" method="post">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+          <label for="email" id="email-label">Email</label>
+          <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+          <label for="number" id="number-label">Age</label>
+          <input type="number" name="number" id="number" class="Enter your Age" min="10" max="99" placeholder="Age" required>
+        </div>
+        <div class="form-group">
+          <p>Which activities in the classroom do you enjoy the most?</p>
+          <select class="form-control" id="dropdown" name="roler" required>
+            <option disabled selected value> Select your activity</option>
+            <option value="fast-facts">Fast Facts</option>
+            <option value="memory">Memory</option>
+            <option value="treasure-hunt">Treasure Hunt</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Do you have supportive classmates</p>
+          <label
+            ><input
+              name="user-recommend"
+              value="yes"
+              type="radio"
+              class="input-radio"
+            />Yesm extremely supportive</label
+          >
+          <label
+            ><input
+              name="user-recommend"
+              value="not-supportive"
+              type="radio"
+              class="input-radio"
+            />They are neither supportive or unsupportive</label
+          >
+          <label
+            ><input
+              name="user-recommend"
+              value="no"
+              type="radio"
+              class="input-radio"
+            />No, extremely not supportive</label
+          >
+        </div>
+        <div class="form-group">
+          <p>Would you recommend our university to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>
+            What is your favorite feature of the university?
+          </p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What are the achievements you are proud of?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label>
+            <input name="prefer" value="proud-of-achievements" type="checkbox" class="input-checkbox"/>
+            Securing the 1st rank
+          </label>
+          <label>
+            <input name="prefer" value="proud-of-achievements" type="checkbox" class="input-checkbox"/>
+            Participating in an inter-school debate competition
+          </label>
+          <label>
+            <input name="prefer" value="proud-of-achievements" type="checkbox" class="input-checkbox"/>
+            Participating in a culture-exchange program
+          </label>
+          <label>
+            <input name="prefer" value="proud-of-achievements" type="checkbox" class="input-checkbox"/>
+            Representing the school/university at a national level
+          </label
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea name="comments" id="comments" placeholder="Please enter your comment here..." class="input-textarea"></textarea>
+
+        </div>
+        <div class="form-group">
+          <button type="submit" name="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
