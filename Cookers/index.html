@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script type="text/javascript" src="js/jquery.min.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+    <style>
+      body,html{
+        
+        overflow-x: hidden;
+      }
+    
+      #cooks{
+        width: 100vw;
+        height: 100vh;
+        display: inline-block;
+       
+      }
+      #home {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        padding: 50px;
+      }
+      .clr_white{
+        color: rgb(255, 255, 255);
+      }
+      .smp_ideal {
+        position: relative;
+        top: 200px;
+      }
+      .imgin{
+        width: 300px;
+        transition: opacity 0.5s ease-in-out;
+      }
+      .imgin:hover{
+        opacity: .7;
+      }
+      .col-text {
+        column-count: 3;
+        padding: 20px;
+      }
+      .imgouter {
+        height: 620px;
+        padding: 10px;
+        
+      }
+      #reservare{
+        padding: 20px;
+        width: 100vw;
+        height: 100vh;
+        background: rgb(116, 153, 196);
+      }
+      .backcol{
+        background-color: rgb(245, 245, 245);
+        padding: 5px;
+        margin: 15px;
+      }
+      
+    </style>
+    <title></title>
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div>
+          <a href="#" class="navbar-brand">Cookers <sup><small>_Industry</small></sup></a>
+        </div>
+
+      <div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li role="presentation" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+          aria-haspopup="true" aria-expanded="false">What do we do <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#cooks">Gallery</a></li>
+          <li><a href="#">Close It </a></li>
+
+        </ul>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+      </div>
+      </div>
+    </nav>
+    
+
+
+    <section id="home" class="container-fluid " style="background:linear-gradient(
+      115deg,
+      rgba(144, 144, 219, 0.404),
+      rgba(138, 143, 202, 0.596)
+    ), url(images/BG.jpg); background-size: 100% 100%;" >
+      <div class="text-left smp_ideal clr_white">
+        <h1>Welcome</h1>
+        <p class="lead"> Weclom to our small Cookers Restaurant. Let Just Read Our about us and Contact Us Reservation!</p>
+        <button class="btn btn-default">Contact Us</button>
+      </div>
+    </section>
+
+    <section id="cooks" class="container-fluid clr_white" style="background:linear-gradient(
+      115deg,
+      rgba(144, 144, 219, 0.404),
+      rgba(138, 143, 202, 0.596)
+    ), url(images/bg-2.jpg); background-size: 100% 100%;
+    ">
+      <div class="text-center">
+        <div class="page-header">
+          <h1 class="text-center" >Our Dishes</h1>
+        </div>
+          <img src="images/test-1.jpg" class="img-thumbnail img-responsive imgin" alt="">
+          <img src="images/test-2.jpg" class="img-thumbnail img-responsive imgin" alt="">
+          <img src="images/test-3.jpg" class="img-thumbnail img-responsive imgin" alt="">
+          <img src="images/test-5.jpg" class="img-thumbnail img-responsive imgin" alt="">
+          <img src="images/test-6.jpg" class="img-thumbnail img-responsive imgin" alt="">
+          <img src="images/test-5.jpg" class="img-thumbnail img-responsive imgin" alt="">
+        <br />
+        
+      </div>
+    
+      </section> 
+
+      
+
+      <section class="container-fluid" id="about">
+       <div class="col-text">
+          
+            “Cook” restaurant is an approachable, fun and introspective look at the process of being a restaurant. The 80-seat New American Bistro is located in the Greater-Boston area in Needham, Massachusetts. Cook presents a menu that crosses all cultural lines and spans from the simple to the complex. The perfect place to meet for dinner, enjoy craft cocktails and meet friends, Cook is a true neighborhood restaurant in every way.
+            
+            Executive Chef/Owner Chef Paul Turano is dedicated to using only the freshest local ingredients.
+            
+            At Cook the food is dressed up, but you can dress down.
+            
+             </div>
+             <div class="row">
+                <div class="col-md-3">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      Somethin Cook
+                    </div>
+                    <div class="panel-body text-center">
+                      <img src="images/order-1.jpg" class="img-responsive" alt="">
+                      <br>
+                      <button class="btn btn-success">Order it</button>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        Somethin Cook
+                      </div>
+                      <div class="panel-body text-center">
+                          <img src="images/order-2.jpg" class="img-responsive" alt="">
+                          <br>
+                          <button class="btn btn-success">Order it</button>
+    
+  
+                      </div>
+                    </div>
+  
+                  </div><div class="col-md-3">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          Somethin Cook
+                        </div>
+                        <div class="panel-body text-center">
+                            <img src="images/order-3.jpg" class="img-responsive" alt="">
+                            <br>
+                            <button class="btn btn-success">Order it</button>
+      
+    
+                        </div>
+                      </div>
+    
+                    </div><div class="col-md-3">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            Somethin Cook
+                          </div>
+                          <div class="panel-body text-center">
+                              <img src="images/order-4.jpg" class="img-responsive" alt="">
+                              <br>
+                              <button class="btn btn-success">Order it</button>
+        
+      
+                          </div>
+                        </div>
+      
+                      </div>
+             </div>
+            
+
+      
+
+      </section> 
+      <section class="container-fluid" id="reservare"  >
+          <div class="row">
+              <div class="col-md-6"> <img src="images/menu.jpg" class="img-responsive imgouter" alt=""></div>
+              <div class="col-md-6">
+                <div class="jumbotron text-center backcol"><hr><h4><span class="glyphicon glyphicon-time"></span> HOURS</h4> <hr>
+                  <p style="font-size: 16px;"><b>Somerthin DINE IN & NON CONTACT TAKE OUT</b><br>
+                    Monday - Friday 4:00PM – Close <br>
+                    <b>DINE IN & NON CONTACT TAKE OUT</b> <br>
+                    Saturday & Sunday 12:00 PM - Close 
+                    </p>
+                    <hr>
+                  <h4>FOR RESERVATIONS</h3><hr>
+                    <p style="color:red; font-size: 16px;">Please call 781-400-5927</p>
+                     OR <br>
+                     <div class="form-group">
+                     <p style="font-size: 16px;">Please leave your phone number, So we can call back.</p>
+  
+                     <input type="text" class="form-control" value="+998"> <br>
+                     <button class="btn btn-success btn-block">Leave Phone Number</button>
+                    </div>
+                    </div> 
+        
+              </div>
+  
+          </div>
+  
+        </section>
+
+
+        <footer id="footer-area" id="contact">
+          <div class="container-fluid">
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <div class="footer-content">
+                  <h1>Cookers</h1>
+                  <p>Page by Akhmadjon. 
+                    <br> Contact: 781-400-5927. SomeWhere street, Tashkent, Uzbekistan, Continent Asia.</p>
+                  </div>                
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-center">             
+                  <p class="copy">Copyright © 2084 Cookers 
+                                      
+                                      | Design: Akhmadjon</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+
+
+
+  </body>
+</html>
